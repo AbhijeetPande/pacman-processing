@@ -45,11 +45,11 @@ void setup() {
   size (513,513);
 ellipseMode(CENTER);
 rectMode(CENTER);
-img = loadImage("pacmanheightmap3.jpg");
-img2 = loadImage("GameOver.jpg");
+img = loadImage("PacmanGameMap.jpg");
+img2 = loadImage("GameOverScreen.jpg");
   //startMenu
-  mainMenu = loadImage("pacguibg.jpg");
-  victory = loadImage("YouWin.jpg");
+  mainMenu = loadImage("PacmanGuiBackground.jpg");
+  victory = loadImage("GameWinScreen.jpg");
 
 frameRate(60);
 stage = 1;
